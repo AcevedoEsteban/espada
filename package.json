@@ -5,11 +5,9 @@
   "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "src/index.html",
-    "build": "build src/index.html",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages"
   },
   "repository": {
     "type": "git",
