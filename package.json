@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "deploy": "gh-pages -d build"
+    "deploy": "git subtree push --prefix docs origin gh-pages"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/acevedoesteban/espada/issues"
   },
-  "homepage": "https://acevedoesteban.github.io/espada",
+  "homepage": "https://acevedoesteban.github.io/espada/",
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
