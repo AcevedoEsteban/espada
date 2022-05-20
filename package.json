@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "src/index.html",
     "build": "build src/index.html",
-    "deploy": "gh-pages -dev"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/acevedoesteban/espada/issues"
   },
-  "homepage": "https://github.com/sureshmurali/My-Portfolio#readme",
+  "homepage": "https://acevedoesteban.github.io/espada",
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
